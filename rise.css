@@ -1,0 +1,41 @@
+/* fixes vertical scrollbars appearing on long verbatim blocks */
+.reveal pre code {
+	max-height: 600px;
+}
+
+/* This fixes the scrolling bar issue with verbatim blocks */
+.reveal .text_cell_render {
+	padding-right: 5%;
+}
+
+.reveal .jupyter-widgets .progress {
+	/* This fixes a clash between reveal.js' and ipywidgets' progress bar */
+	display: block
+}
+
+/* fixea text size in widgets */
+.reveal .widget-label {
+	font-size: 100%
+}
+
+.reveal .widget-readout {
+	font-size: 100%
+}
+
+/* fixes text size in prompts (it's too small otherwise) */
+.reveal .input {
+	font-size: 150%
+}
+
+.reveal .output {
+	font-size: 150%
+}
+
+.reveal .slide-number {
+	font-size: 250% !important
+}
+
+/* makes font generally a bit smaller */
+.reveal {
+	font-size: 80% !important
+}

@@ -1,0 +1,6 @@
+https://www.codeproject.com/Articles/373463/Painting-on-a-Widget
+https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/
+http://neuralnetworksanddeeplearning.com/chap3.html#softmax
+https://sefiks.com/2017/12/17/a-gentle-introduction-to-cross-entropy-loss-function/
+https://deepnotes.io/softmax-crossentropy
+https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
